@@ -3,22 +3,60 @@ import { parse } from 'csv-parse/sync';
 import fs from 'fs';
 
 const SHEET_ID = '1eR2oAXOuflr8CZeGoz3JTrsgNj3KuefbdXJOmNtjEVM';
-const CSV_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=0`;
+
+const CSV_URLS = [
+  `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=0`,
+  `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=0&usp=sharing`,
+  `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=0`
+];
+
+async function fetchCSVData() {
+  for (const url of CSV_URLS) {
+    try {
+      console.log(`Trying URL: ${url}`);
+      const response = await fetch(url);
+      
+      if (!response.ok) {
+        console.log(`Failed with status: ${response.status}`);
+        continue;
+      }
+      
+      const csvData = await response.text();
+      
+      if (csvData.trim().startsWith('<!DOCTYPE html') || csvData.trim().startsWith('<html')) {
+        console.log('Received HTML instead of CSV, trying next URL...');
+        continue;
+      }
+      
+      console.log('Valid CSV data received!');
+      return csvData;
+    } catch (error) {
+      console.log(`Error with URL ${url}:`, error.message);
+      continue;
+    }
+  }
+  
+  throw new Error('All CSV URL attempts failed. The Google Sheet may not be publicly accessible.');
+}
 
 async function fetchJobs() {
   try {
     console.log('Fetching jobs from Google Sheets...');
-    const response = await fetch(CSV_URL);
-    const csvData = await response.text();
+    const csvData = await fetchCSVData();
     
+    console.log('Parsing CSV data...');
     const records = parse(csvData, {
       columns: true,
-      skip_empty_lines: true
+      skip_empty_lines: true,
+      relax_quotes: true,
+      escape: '"'
     });
 
+    console.log(`Total records found: ${records.length}`);
+
     const filteredJobs = records.filter(job => {
-      const workType = job['On-Site/\nRemote/Hybrid']?.toLowerCase() || '';
-      const software = job['Software/Programs\n(Required/Preferred)']?.toLowerCase() || '';
+      const workType = (job[' On-Site/\nRemote/Hybrid'] || '').toLowerCase();
+      const software = (job['Software/Programs\n(Required/Preferred)'] || '').toLowerCase();
       
       const isRemote = workType.includes('remote') || workType.includes('all options');
       const hasUnityOrCSharp = software.includes('unity') || software.includes('c#') || software.includes('c++');
@@ -142,7 +180,7 @@ function generateHTML(jobs) {
     ${jobs.map(job => `
         <div class="job-card">
             <div class="job-title">${job['Job Title'] || 'N/A'}</div>
-            <div class="company">${job['Studio'] || 'N/A'}</div>
+            <div class="company">${job['Studio\n(Featured listings in blue)\n(Most recent in orange)'] || 'N/A'}</div>
             <div class="location">📍 ${job['City'] || 'N/A'}, ${job['Province/State/Region'] || 'N/A'}, ${job['Country'] || 'N/A'}</div>
             
             <div class="details">
@@ -150,7 +188,7 @@ function generateHTML(jobs) {
                     <span class="detail-label">Experience:</span> ${job['Experience Level'] || 'N/A'}
                 </div>
                 <div class="detail-item">
-                    <span class="detail-label">Work Type:</span> ${job['On-Site/\nRemote/Hybrid'] || 'N/A'}
+                    <span class="detail-label">Work Type:</span> ${job[' On-Site/\nRemote/Hybrid'] || 'N/A'}
                 </div>
                 <div class="detail-item">
                     <span class="detail-label">Posted:</span> ${job['Date'] || 'N/A'}
