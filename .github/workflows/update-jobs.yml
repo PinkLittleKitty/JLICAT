@@ -8,6 +8,9 @@ on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: write
+
 jobs:
   update-jobs:
     runs-on: ubuntu-latest
@@ -32,7 +35,9 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add index.html jobs.json
-        git diff --staged --quiet || git commit -m "Update jobs - $(date)"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if ! git diff --staged --quiet; then
+          git commit -m "Update jobs - $(date)"
+          git push
+        else
+          echo "No changes to commit"
+        fi
