@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "node scripts/fetch-jobs.js",
-    "dev": "node scripts/fetch-jobs.js && python -m http.server 8000"
+    "dev": "node scripts/fetch-jobs.js && echo 'Opening http://localhost:8000' && start http://localhost:8000 && python -m http.server 8000",
+    "serve": "python -m http.server 8000"
   },
   "dependencies": {
     "node-fetch": "^3.3.2",
