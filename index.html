@@ -1,0 +1,2028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote Unity/C# Jobs</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .job-card {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-left: 4px solid #007acc;
+        }
+        .job-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .company {
+            font-size: 1.1em;
+            color: #007acc;
+            margin-bottom: 8px;
+        }
+        .location {
+            color: #666;
+            margin-bottom: 8px;
+        }
+        .details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin: 15px 0;
+        }
+        .detail-item {
+            background: #f8f9fa;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        .detail-label {
+            font-weight: bold;
+            color: #555;
+        }
+        .apply-btn {
+            display: inline-block;
+            background: #007acc;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+            transition: background 0.2s;
+        }
+        .apply-btn:hover {
+            background: #005a9e;
+        }
+        .notes {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+        .count {
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎮 Remote Unity/C# Jobs</h1>
+        <p class="count">77 jobs found</p>
+        <p><small>Last updated: 8/15/2025, 4:56:39 AM</small></p>
+    </div>
+    
+    
+        <div class="job-card">
+            <div class="job-title">3D Artist</div>
+            <div class="company">Dionic Software</div>
+            <div class="location">📍 Munich, Bavaria, Germany</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Lead
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 12, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Blender, Unity
+                </div>
+            </div>
+            
+            <a href="https://dionicsoftware.com/jobs.html#3d-lead" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be based in Germany</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Environment Artist</div>
+            <div class="company">New Moon Production</div>
+            <div class="location">📍 Hamburg, Hamburg, Germany</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 14, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity
+                </div>
+            </div>
+            
+            <a href="https://newmoonproduction.teamtailor.com/jobs/6296851-environment-artist-freelancer" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> They only consider applicants based within a 2-3 hour time difference from Europe or the UK. Role is expected to go for 4-6 months</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Engine Programmer</div>
+            <div class="company">Tripwire Interactive</div>
+            <div class="location">📍 Roswell, Georgia, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Lead
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 14, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C++, Unreal
+                </div>
+            </div>
+            
+            <a href="https://job-boards.greenhouse.io/tripwireinteractive/jobs/7801368002" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Please note: you must meet the legal requirements to work in the USA, including visas and work permits, if you are not a US Citizen.) Core Hours 10am to 4pm EST</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Animator, 3D</div>
+            <div class="company">Kokku</div>
+            <div class="location">📍 Recife, N/A, Brazil</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid, Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 14, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Maya, Unreal, Unity
+                </div>
+            </div>
+            
+            <a href="https://kokkugames.factorialhr.com.br/job_posting/mid-senior-animator-254668" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Game Developer</div>
+            <div class="company">Kokku</div>
+            <div class="location">📍 Recife, N/A, Brazil</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 14, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C++
+                </div>
+            </div>
+            
+            <a href="https://kokkugames.factorialhr.com.br/job_posting/game-developer-mid-240518" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">VFX Artist</div>
+            <div class="company">Kokku</div>
+            <div class="location">📍 Recife, N/A, Brazil</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 14, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Maya, 3ds Max, Blender, Photoshop, Substance, Unreal, Unity
+                </div>
+            </div>
+            
+            <a href="https://kokkugames.factorialhr.com.br/job_posting/technical-artist-focused-on-vfx-254669" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">UI/UX Designer</div>
+            <div class="company">Hyper Luminal Games</div>
+            <div class="location">📍 Dundee, N/A, Scotland</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 14, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity, Figma, XD, Illustrator, Photoshop
+                </div>
+            </div>
+            
+            <a href="https://hyperluminalgames.bamboohr.com/careers/49" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> You must have a pre-existing Right to Work in the UK to be considered for this role</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Technical Animator</div>
+            <div class="company">Studio Elevation</div>
+            <div class="location">📍 Farnborough, United Kingdom, England</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 13, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Maya, MotionBuilder, Python, MEL, Unreal, Unity
+                </div>
+            </div>
+            
+            <a href="https://apply.workable.com/ndreams/j/FB6CB1F81A/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be based in the UK. 1-year contract</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Animator, 3D</div>
+            <div class="company">Carbonara</div>
+            <div class="location">📍 Oslo, N/A, Norway</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 12, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Blender, Unity
+                </div>
+            </div>
+            
+            <a href="https://carbonaragames.notion.site/Job-Animator-2265dfc6092b80349102ec9ce3480174" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Production spans Q3 2025 to Q2 2026</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Software Engineer</div>
+            <div class="company">Voracious Games</div>
+            <div class="location">📍 Seattle, Washington, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 12, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unreal, C++
+                </div>
+            </div>
+            
+            <a href="https://www.voraciousgames.com/engineer" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Flexible hours. They have a daily check-in meeting at 8am PT, but otherwise you're free to set your own schedule</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Gameplay Programmer</div>
+            <div class="company">R16 Interactive</div>
+            <div class="location">📍 San Diego, California, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 12, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unreal, C++
+                </div>
+            </div>
+            
+            <a href="https://www.workwithindies.com/careers/r16-interactive-generalist-gameplay-programmer" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Gameplay Animation Programmer</div>
+            <div class="company">Great Ape Games</div>
+            <div class="location">📍 Brighton, United Kingdom, England</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> All options
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 8, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unreal, C++
+                </div>
+            </div>
+            
+            <a href="https://jobs.polymer.co/greatapegames/35607" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Workday must overlap by at least 6 hours with London, UK</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Technical Artist</div>
+            <div class="company">Tripledot Studios</div>
+            <div class="location">📍 San Francisco, California, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 7, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity, Python, C#
+                </div>
+            </div>
+            
+            <a href="https://tripledotstudios.pinpointhq.com/en/postings/c21b78b9-c00d-472f-b4b6-9259a39270d7" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Principal role</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">VFX Artist</div>
+            <div class="company">CGBOT</div>
+            <div class="location">📍 Monterrey, N/A, Mexico</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 7, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity, Unreal, Substance, After Effects, Houdini, Animate
+                </div>
+            </div>
+            
+            <a href="https://cgbot.com/ads/vfx-artist-por-proyecto-2/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must live in Mexico</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Outsource Manager</div>
+            <div class="company">Scopely</div>
+            <div class="location">📍 Barcelona, Catalonia, Spain</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> All options
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 7, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Maya, ZBrush, Substance, Unity
+                </div>
+            </div>
+            
+            <a href="https://job-boards.greenhouse.io/scopely/jobs/4870794008" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> For an unannounced project in Barcelona on a hybrid basis or remotely if you're based in Spain, the UK, Portugal, or Ireland on a remote basis</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Art Director</div>
+            <div class="company">Hard Rock Digital</div>
+            <div class="location">📍 Hollywood, Florida, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 6, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Photoshop, Illustrator, After Effects, Spine, Unity, Unreal
+                </div>
+            </div>
+            
+            <a href="https://hardrockdigital.recruitee.com/o/senior-art-director-casino-slots" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Working remotely is possible if you are located in the US, UK, Malta, or Toronto in Canada</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">3D Artist</div>
+            <div class="company">Effort Star</div>
+            <div class="location">📍 Melbourne, Victoria, Australia</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 5, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Blender, Photoshop, Unity, Miro, Figma, Notion
+                </div>
+            </div>
+            
+            <a href="https://effortstar.games/careers" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be based in Australia. Apply by August 22nd</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Animator, 3D</div>
+            <div class="company">Mega Cat Studios</div>
+            <div class="location">📍 Pittsburgh, Pennsylvania, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid, Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 5, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Blender, Unity
+                </div>
+            </div>
+            
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7358390901427032064/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Game Developer</div>
+            <div class="company">Mega Cat Studios</div>
+            <div class="location">📍 Pittsburgh, Pennsylvania, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 5, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Blender, Unity
+                </div>
+            </div>
+            
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7358390901427032064/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Modeler</div>
+            <div class="company">Mega Cat Studios</div>
+            <div class="location">📍 Pittsburgh, Pennsylvania, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 5, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Blender, Unity
+                </div>
+            </div>
+            
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7358390901427032064/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> For hard or soft surfaces</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Pixel Artist</div>
+            <div class="company">Mega Cat Studios</div>
+            <div class="location">📍 Pittsburgh, Pennsylvania, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 5, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity
+                </div>
+            </div>
+            
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7358390901427032064/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Technical Artist</div>
+            <div class="company">Mega Cat Studios</div>
+            <div class="location">📍 Pittsburgh, Pennsylvania, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 5, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Blender, Unity
+                </div>
+            </div>
+            
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7358390901427032064/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">UI/UX Artist</div>
+            <div class="company">Mega Cat Studios</div>
+            <div class="location">📍 Pittsburgh, Pennsylvania, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid, Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 5, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Blender, Unity
+                </div>
+            </div>
+            
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7358390901427032064/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">VFX Artist</div>
+            <div class="company">Mega Cat Studios</div>
+            <div class="location">📍 Pittsburgh, Pennsylvania, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid, Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 5, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Blender, Unity
+                </div>
+            </div>
+            
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7358390901427032064/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Visual Lead</div>
+            <div class="company">Mega Cat Studios</div>
+            <div class="location">📍 Pittsburgh, Pennsylvania, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Lead
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 5, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Blender, Unity
+                </div>
+            </div>
+            
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7358390901427032064/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Engineering Manager</div>
+            <div class="company">ArenaNet</div>
+            <div class="location">📍 Bellevue, Washington, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Manager / Supervisor
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> All options
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 1, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C#, C++, Python
+                </div>
+            </div>
+            
+            <a href="https://job-boards.greenhouse.io/arenanet/jobs/7075310" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> They are open to remote work from the following states in the US: AZ, CA, CO, FL, GA, ID, IL, MA, MD, NC, NY, OR, TX, UT, WA and WI or onsite/hybrid/flex at their office in Bellevue, WA</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Engine Programmer</div>
+            <div class="company">Wizcorp</div>
+            <div class="location">📍 Tokyo, N/A, Japan</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> August 1, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C++
+                </div>
+            </div>
+            
+            <a href="https://apply.workable.com/wizcorp/j/DF2B3F81E8/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must reside in Japan</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Programmer</div>
+            <div class="company">Deck13</div>
+            <div class="location">📍 Frankfurt, N/A, Germany</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> On-Site or Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 31, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C++, Unreal
+                </div>
+            </div>
+            
+            <a href="https://deck13jobs.kenjo.io/senior-game-programmer-f-m-x-860441" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be based in Germany to work remotely</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Generalist, 3D</div>
+            <div class="company">Voodoo</div>
+            <div class="location">📍 Barcelona, Catalonia, Spain</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> On-Site or Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 31, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity
+                </div>
+            </div>
+            
+            <a href="https://jobs.ashbyhq.com/voodoo/5124b046-529c-4471-be8d-ffcccdbfbbc6" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Audio Designer</div>
+            <div class="company">FuturLab</div>
+            <div class="location">📍 Brighton, United Kingdom, England</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> All options
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 29, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> FMOD, Unity, C#, Git, Perforce
+                </div>
+            </div>
+            
+            <a href="https://apply.workable.com/futurlab-ltd/j/B8F6801C46/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be UK-based. This is a fixed term 6-month contract, with a 3-day work week</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Art Director</div>
+            <div class="company">Skymap Games</div>
+            <div class="location">📍 Manchester, New Hampshire, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 29, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unreal, Unity
+                </div>
+            </div>
+            
+            <a href="https://www.useparallel.com/skymapgames/careers/6887abd22fa4b2fa57b1700c" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be within +/- hours of US central time zone</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Programmer</div>
+            <div class="company">Facepunch Studios</div>
+            <div class="location">📍 Birmingham, United Kingdom, England</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> All options
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 29, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C#
+                </div>
+            </div>
+            
+            <a href="https://facepunch.com/careers/programmer" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be UK-based</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Programmer</div>
+            <div class="company">Wushu Studios</div>
+            <div class="location">📍 Liverpool, United Kingdom, England</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 29, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C#, C++, Java, LUA, Python
+                </div>
+            </div>
+            
+            <a href="https://apply.workable.com/wushu-studios/j/30AD6A40C5" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be UK-based</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Online Engineer</div>
+            <div class="company">Wildlight Entertainment</div>
+            <div class="location">📍 Woodland Hills, California, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 29, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unreal, C++
+                </div>
+            </div>
+            
+            <a href="https://jobs.lever.co/wildlight/9821c9b1-9e1b-420e-8826-f8c86cceb52b" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Currently, they can employ those living in the United States and Canada</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Technical Designer</div>
+            <div class="company">Volmi Games</div>
+            <div class="location">📍 Kiev, N/A, Ukraine</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 28, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unreal, C++
+                </div>
+            </div>
+            
+            <a href="https://fa-exhj-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1326" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be based in Ukraine and fluent in English</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">3D Artist</div>
+            <div class="company">Coal Car Studio</div>
+            <div class="location">📍 Vancouver, British Columbia, Canada</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 25, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Blender, Substance, Unity
+                </div>
+            </div>
+            
+            <a href="https://www.coalcar.ca/careers" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Candidates in Vancouver preferred but will also consider those in similar time zones</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Animator, 3D</div>
+            <div class="company">Artificium Games</div>
+            <div class="location">📍 Chicago, Illinois, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Junior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 25, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity
+                </div>
+            </div>
+            
+            <a href="https://www.workwithindies.com/careers/artificium-games-junior-3d-animator" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Technical Artist</div>
+            <div class="company">PUBG Madison</div>
+            <div class="location">📍 Madison, Wisconsin, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> On-Site or Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 22, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Houdini, Unreal, C#, C++, Python, VEX, Perforce, Git, SVN
+                </div>
+            </div>
+            
+            <a href="https://job-boards.greenhouse.io/pubgmadison/jobs/7909389002" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">UI Artist</div>
+            <div class="company">Amber</div>
+            <div class="location">📍 N/A, N/A, Brazil</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 22, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Photoshop, Illustrator, Figma, InDesign, Unity, Unreal, Sketch, XD
+                </div>
+            </div>
+            
+            <a href="https://jobs.jobvite.com/amberstudiocareers/job/omdgufw3" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be based in Brazil</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Tools Engineer</div>
+            <div class="company">Heart Machine</div>
+            <div class="location">📍 Los Angeles, California, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 22, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C++, Perforce, Unreal, Jenkins
+                </div>
+            </div>
+            
+            <a href="https://jobs.smartrecruiters.com/HeartMachine/744000071138959-gameplay-tools-engineer" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Gameplay Tools Engineer</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Producer</div>
+            <div class="company">Microsoft Casual Games</div>
+            <div class="location">📍 Redmond, Washington, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> All options
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 21, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity, Excel, PowerBi
+                </div>
+            </div>
+            
+            <a href="https://jobs.careers.microsoft.com/global/en/job/1845662" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Apply by July 25th</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Manager, Gameplay Programming</div>
+            <div class="company">Insomniac Games</div>
+            <div class="location">📍 Burbank, California, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Manager / Supervisor
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> All options
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 18, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C++, Python, JavaScript, Maya, JSON, Office
+                </div>
+            </div>
+            
+            <a href="https://job-boards.greenhouse.io/insomniac/jobs/5587738004" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be US-based</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Rendering Programmer</div>
+            <div class="company">KO_OP</div>
+            <div class="location">📍 Montreal, Québec, Canada</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 18, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity, C#, HLSL
+                </div>
+            </div>
+            
+            <a href="https://ko-opmode.applytojobs.ca/programming/40153" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be fluent in English. Candidates in Canada preferred, but all are enouraged to apply</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Level Designer</div>
+            <div class="company">Pretty Cool Games</div>
+            <div class="location">📍 N/A, United Kingdom, England</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 18, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity, Git, C#
+                </div>
+            </div>
+            
+            <a href="https://www.workwithindies.com/careers/pretty-cool-games-level-designer" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Looking for candidates that reside in the UK/EU. 1-month contract</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Combat Designer</div>
+            <div class="company">Nomadroid</div>
+            <div class="location">📍 Riyadh, N/A, Saudi Arabia</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 18, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity
+                </div>
+            </div>
+            
+            <a href="https://www.workwithindies.com/careers/nomadroid-combat-designer" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Generalist, 3D</div>
+            <div class="company">Edge of the World Studios</div>
+            <div class="location">📍 Riyadh, N/A, Saudi Arabia</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid, Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 17, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Blender, Unity
+                </div>
+            </div>
+            
+            <a href="https://remotegamejobs.com/jobs/edge-of-the-world-studios-3d-generalists-technical-artists-remote-job-daa40953-dd87-4bf2-ba35-94059f03254d" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Will need to work closely with the team members in GMT+3</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Animator, 3D</div>
+            <div class="company">Scopely</div>
+            <div class="location">📍 Culver City, California, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Lead
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> On-Site or Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 16, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Maya, Unity
+                </div>
+            </div>
+            
+            <a href="https://job-boards.greenhouse.io/scopely/jobs/4790016008" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be based within the US or Canada to work remotely</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Systems Programmer</div>
+            <div class="company">Mob Entertainment</div>
+            <div class="location">📍 St. Louis, Missouri, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 15, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unreal, C++
+                </div>
+            </div>
+            
+            <a href="https://job-boards.greenhouse.io/mobentertainment/jobs/4786671007" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Animation Engineer</div>
+            <div class="company">That's No Moon</div>
+            <div class="location">📍 Los Angeles, California, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> On-Site or Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 13, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unreal, C++
+                </div>
+            </div>
+            
+            <a href="https://job-boards.greenhouse.io/thatsnomoonentertainment/jobs/5577568004" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be based in North America to work remotely</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Rendering Engineer</div>
+            <div class="company">That's No Moon</div>
+            <div class="location">📍 Los Angeles, California, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> On-Site or Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 13, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C++, Unreal, HLSL
+                </div>
+            </div>
+            
+            <a href="https://job-boards.greenhouse.io/thatsnomoonentertainment/jobs/5587834004" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be based in North America to work remotely</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">VFX Artist</div>
+            <div class="company">Studio Drydock</div>
+            <div class="location">📍 Melbourne, Victoria, Australia</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 12, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity
+                </div>
+            </div>
+            
+            <a href="https://jobs.studiodrydock.com/35352" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> North America and Australasia timezones only</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Unity Developer</div>
+            <div class="company">GameHouse</div>
+            <div class="location">📍 Alicante, N/A, Spain</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> All options
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 11, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity, C#
+                </div>
+            </div>
+            
+            <a href="https://gamehouse.factorialhr.com/job_posting/senior-unity-developer-256204" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Remote possible if you live within Spain. Must be fluent in English</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Unity Developer</div>
+            <div class="company">GameHouse</div>
+            <div class="location">📍 Barcelona, Catalonia, Spain</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> All options
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 11, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity, C#
+                </div>
+            </div>
+            
+            <a href="https://gamehouse.factorialhr.com/job_posting/senior-unity-developer-256204" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Remote possible if you live within Spain. Must be fluent in English</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Art Director</div>
+            <div class="company">arkanum pictures GmbH & Co.KG</div>
+            <div class="location">📍 Berlin, Berlin, Germany</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> On-Site or Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 10, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity
+                </div>
+            </div>
+            
+            <div class="detail-item"><span class="detail-label">Contact:</span> info@arkanum.pictures</div>
+            
+            <div class="notes"><strong>Notes:</strong> Looking for some skilled in Unity. The ideal candidate can develop ideas in the form of a sketch with the proper VR softwares considerations (light, materials, pipelines) and them in scene. Must be based in Berlin - Brandenburg and also comfortable working and speaking in English. The job is remote, except for few meetings every now and then in Berlin. </div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Environment Artist</div>
+            <div class="company">Tactic Studios</div>
+            <div class="location">📍 London, Ontario, Canada</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 7, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> 3ds Max, Maya, Blender, ZBrush, Unreal, Unity
+                </div>
+            </div>
+            
+            <a href="https://www.tacticstudios.com/careers.php?jobID=4" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be based in Ontario</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Tools Engineer</div>
+            <div class="company">ArenaNet</div>
+            <div class="location">📍 Bellevue, Washington, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> All options
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 3, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C#, C++, Unreal
+                </div>
+            </div>
+            
+            <a href="https://job-boards.greenhouse.io/arenanet/jobs/6831832" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> They are open to remote work from the following states: AZ, CA, CO, FL, GA, ID, IL, MA, MD, NC, NY, OR, TX, UT, WA and WI or onsite/hybrid/flex at their office in Bellevue, WA</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Technical Artist</div>
+            <div class="company">Radical Forge</div>
+            <div class="location">📍 Middlesbrough, United Kingdom, England</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 3, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity, Unreal, Maya, 3ds Max, Blender, Substance
+                </div>
+            </div>
+            
+            <a href="https://careers.radicalforge.com/jobs/6121246-technical-artist" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> They will require all applicants to live in the UK and have a pre-existing right to work there. The role will initially be a 12-month contract with the potential to extend after this.</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Technical Designer</div>
+            <div class="company">Jackbox Games</div>
+            <div class="location">📍 Chicago, Illinois, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> On-Site or Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 3, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unreal, C++
+                </div>
+            </div>
+            
+            <a href="https://apply.workable.com/jackbox-games/j/9CDD3A2F61/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> They offer remote work in the following states: California, Florida, Illinois, Indiana, Massachusetts, Michigan, New York, Ohio, Pennsylvania, Texas, Vermont, Washington, and Wisconsin</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Technical Artist</div>
+            <div class="company">Visual Concepts</div>
+            <div class="location">📍 Austin, Texas, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 2, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Python, C#, C++, Maya, MEL, Substance, Photoshop, Perforce, MotionBuilder
+                </div>
+            </div>
+            
+            <a href="https://job-boards.greenhouse.io/visualconcepts/jobs/6619966003" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be US-based</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Graphics Programmer</div>
+            <div class="company">Digital Extremes</div>
+            <div class="location">📍 London, Ontario, Canada</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> All options
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> July 1, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C++
+                </div>
+            </div>
+            
+            <a href="https://www.digitalextremes.com/careers/position/4513638007" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Applicants must be legally eligible to work in Canada at the time of application</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Animation Programmer</div>
+            <div class="company">Studio Elevation</div>
+            <div class="location">📍 Farnborough, United Kingdom, England</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 26, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C++, Unreal
+                </div>
+            </div>
+            
+            <a href="https://apply.workable.com/ndreams/j/FFB006133D/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be based in the UK. 1-year contract</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Lighting Artist</div>
+            <div class="company">Bungie</div>
+            <div class="location">📍 Bellevue, Washington, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> All options
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 26, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unreal, Unity
+                </div>
+            </div>
+            
+            <a href="https://job-boards.greenhouse.io/bungie/jobs/6993260" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Prospective full-time employees who are located outside of a Bungie approved state or province will need to establish residency in an approved state or province within 45 days of their start date</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Art Director</div>
+            <div class="company">Jackbox Games</div>
+            <div class="location">📍 Chicago, Illinois, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> On-Site or Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 26, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity, CryEngine, Unreal, Maya, 3ds Max, Substance, Photoshop, ZBrush
+                </div>
+            </div>
+            
+            <a href="https://apply.workable.com/jackbox-games/j/2BB98B18E4/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> They offer remote work in the following states: California, Florida, Illinois, Indiana, Massachusetts, Michigan, New York, Ohio, Pennsylvania, Texas, Vermont, Washington, and Wisconsin</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">VFX Artist</div>
+            <div class="company">Nekki</div>
+            <div class="location">📍 Limassol, N/A, Cyprus</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 24, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity
+                </div>
+            </div>
+            
+            <a href="https://nekki.com/vacancy/vfx-artist-3/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Fluent communication in Russian is required</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Gameplay Programmer</div>
+            <div class="company">Gunfire Games</div>
+            <div class="location">📍 Austin, Texas, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 23, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C++, Unreal
+                </div>
+            </div>
+            
+            <a href="https://recruiting.paylocity.com/Recruiting/Jobs/Details/3205801" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be US-based and legally able to work there</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Technical Artist</div>
+            <div class="company">Gunfire Games</div>
+            <div class="location">📍 Austin, Texas, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 23, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unreal, Python, C++
+                </div>
+            </div>
+            
+            <a href="https://recruiting.paylocity.com/Recruiting/Jobs/Details/3230335" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be US-based and legally able to work there</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Technical Artist</div>
+            <div class="company">Handmade Dreams Studio</div>
+            <div class="location">📍 Labège, N/A, France</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 23, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity
+                </div>
+            </div>
+            
+            <a href="https://handmadedreams-studio.com/carriere/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Concept Artist</div>
+            <div class="company">Eyeball Games</div>
+            <div class="location">📍 Singapore, N/A, Singapore</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 23, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Photoshop, Maya, 3ds Max, Blender, Unity, Unreal
+                </div>
+            </div>
+            
+            <a href="https://www.eyeball.games/career" target="_blank" class="apply-btn">Apply Now</a>
+            
+            
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Art Lead</div>
+            <div class="company">Labster</div>
+            <div class="location">📍 Valencia, N/A, Spain</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Lead
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 20, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Blender, Unity, Photoshop
+                </div>
+            </div>
+            
+            <a href="https://careers.labster.com/jobs/6071034-art-lead?promotion=1518339-trackable-share-link-c009fb58-b4ff-49b3-ab30-777383f74c9e" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Currently favoring people with European citizenship, or at least permission to work in the EU zone. Hiring with a Spanish contract is preferred and will be favored initially. They want someone that works during European working hours, even if they are in a different timezone.</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Concept Artist</div>
+            <div class="company">Spectarium</div>
+            <div class="location">📍 London, United Kingdom, England</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 20, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> ZBrush, Blender, Unity
+                </div>
+            </div>
+            
+            <a href="https://apply.workable.com/spectarium/j/EDD95F7C95/" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be based in Europe</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Game Designer</div>
+            <div class="company">Lion Studios</div>
+            <div class="location">📍 N/A, N/A, Vietnam</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 20, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity, Figma
+                </div>
+            </div>
+            
+            <a href="https://job-boards.greenhouse.io/lionstudios/jobs/4576177006" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be based in Vietnam and fluent in Vietnamese and English</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Game Designer</div>
+            <div class="company">Forklift Interactive</div>
+            <div class="location">📍 Atlanta, Georgia, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Lead
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 18, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unreal, Unity
+                </div>
+            </div>
+            
+            <a href="https://www.workwithindies.com/careers/forklift-interactive-lead-game-designer" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be fluent in English and in a timezone close to CET (UTC+1) +/- 3 hours</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Unity Developer</div>
+            <div class="company">Forklift Interactive</div>
+            <div class="location">📍 Atlanta, Georgia, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 18, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C#, Unity
+                </div>
+            </div>
+            
+            <a href="https://www.workwithindies.com/careers/forklift-interactive-senior-unity-developer" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Must be fluent in English and in a timezone close to CET (UTC+1) +/- 3 hours</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Technical Designer</div>
+            <div class="company">Bungie</div>
+            <div class="location">📍 Bellevue, Washington, United States</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid, Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> All options
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 18, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> C, C++, C#, Java, Python
+                </div>
+            </div>
+            
+            <a href="https://job-boards.greenhouse.io/bungie/jobs/6979330" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Prospective full-time employees who are located outside of a Bungie approved state or province will need to establish residency in an approved state or province within 45 days of their start date</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">3D Artist</div>
+            <div class="company">Flat2VR Studios</div>
+            <div class="location">📍 Amsterdam, N/A, Netherlands</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 17, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unity, Git, Perforce
+                </div>
+            </div>
+            
+            <a href="https://www.linkedin.com/jobs/view/4251693129" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> They encourage applicants from the EU or UK to apply for this role</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Technical Artist</div>
+            <div class="company">Flat2VR Studios</div>
+            <div class="location">📍 Amsterdam, N/A, Netherlands</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Mid
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 17, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unreal, C++, Houdini, Embergen, RenderDoc
+                </div>
+            </div>
+            
+            <a href="https://www.linkedin.com/jobs/view/4251690438" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> Technical Artist - Graphics Programming. They encourage applicants from the EU or UK to apply for this role</div>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">Unreal Developer</div>
+            <div class="company">Flat2VR Studios</div>
+            <div class="location">📍 Amsterdam, N/A, Netherlands</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">Experience:</span> Senior
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Work Type:</span> Remote
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Posted:</span> June 17, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Software:</span> Unreal, C++
+                </div>
+            </div>
+            
+            <a href="https://www.linkedin.com/jobs/view/4252299043" target="_blank" class="apply-btn">Apply Now</a>
+            
+            <div class="notes"><strong>Notes:</strong> They encourage applicants from the EU or UK to apply for this role</div>
+        </div>
+    
+    
+    <div style="text-align: center; margin-top: 40px; color: #666;">
+        <p>Data sourced from public job listings spreadsheet</p>
+        <p><a href="jobs.json">View as JSON</a></p>
+    </div>
+</body>
+</html>
