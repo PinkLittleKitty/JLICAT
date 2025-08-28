@@ -1,5 +1,22 @@
 [
   {
+    "Studio\n(Featured listings in blue)\n(Most recent in orange)": "CI Games",
+    "": "",
+    "City": "Warsaw",
+    "Province/State/Region": "Mazowieckie",
+    "Country": "Poland",
+    "Job Title": "Technical Director",
+    "Experience Level": "Mid",
+    " On-Site/\nRemote/Hybrid": "Remote",
+    "Date": "August 27, 2025",
+    "Source/Contact": "https://cigames.teamtailor.com/jobs/6278707-technical-director",
+    "Software/Programs\n(Required/Preferred)": "Unreal, C++, Houdini, JIRA",
+    "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "Must be based in Europe",
+    "test": "0",
+    "Region": "Europe",
+    "Date Difference (Used for redesign purposes only)": "0"
+  },
+  {
     "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Facepunch Studios",
     "": "",
     "City": "Birmingham",
@@ -950,23 +967,6 @@
     "test": "0",
     "Region": "North America",
     "Date Difference (Used for redesign purposes only)": "33"
-  },
-  {
-    "Studio\n(Featured listings in blue)\n(Most recent in orange)": "PUBG Madison",
-    "": "",
-    "City": "Madison",
-    "Province/State/Region": "Wisconsin",
-    "Country": "United States",
-    "Job Title": "Technical Artist",
-    "Experience Level": "Senior",
-    " On-Site/\nRemote/Hybrid": "On-Site or Remote",
-    "Date": "July 22, 2025",
-    "Source/Contact": "https://job-boards.greenhouse.io/pubgmadison/jobs/7909389002",
-    "Software/Programs\n(Required/Preferred)": "Houdini, Unreal, C#, C++, Python, VEX, Perforce, Git, SVN",
-    "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "",
-    "test": "0",
-    "Region": "North America",
-    "Date Difference (Used for redesign purposes only)": "36"
   },
   {
     "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Amber",
