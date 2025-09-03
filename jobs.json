@@ -1,5 +1,39 @@
 [
   {
+    "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Visual Concepts",
+    "": "",
+    "City": "Novato",
+    "Province/State/Region": "California",
+    "Country": "United States",
+    "Job Title": "Server Engineer",
+    "Experience Level": "Senior",
+    " On-Site/\nRemote/Hybrid": "Remote",
+    "Date": "September 2, 2025",
+    "Source/Contact": "https://job-boards.greenhouse.io/visualconcepts/jobs/4869218003",
+    "Software/Programs\n(Required/Preferred)": "C++, Python, PHP, Perl, Ruby",
+    "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "Must be US-based",
+    "test": "0",
+    "Region": "North America",
+    "Date Difference (Used for redesign purposes only)": "0"
+  },
+  {
+    "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Atomic Cartoons",
+    "": "",
+    "City": "Vancouver",
+    "Province/State/Region": "British Columbia",
+    "Country": "Canada",
+    "Job Title": "Pipeline Developer",
+    "Experience Level": "Mid",
+    " On-Site/\nRemote/Hybrid": "All options",
+    "Date": "September 2, 2025",
+    "Source/Contact": "https://job-boards.greenhouse.io/atomiccartoons/jobs/6603232003",
+    "Software/Programs\n(Required/Preferred)": "Python, C++, Maya, Houdini, Mari, Katana, Nuke, RV, Shotgrid, USD, Qt, PyQt, PySide",
+    "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "CG Core Pipeline Developer. Starts ASAP. Applicants must have resided within BC as of December 31, 2024 and be able to provide the appropriate supporting documents. Remote only possible if you live within BC",
+    "test": "0",
+    "Region": "North America",
+    "Date Difference (Used for redesign purposes only)": "0"
+  },
+  {
     "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Rebel Wolves",
     "": "",
     "City": "Warsaw",
@@ -13,8 +47,8 @@
     "Software/Programs\n(Required/Preferred)": "C++, Unreal",
     "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "Must be based in Poland and fluent in English",
     "test": "0",
-    "Region": "",
-    "Date Difference (Used for redesign purposes only)": ""
+    "Region": "Europe",
+    "Date Difference (Used for redesign purposes only)": "4"
   },
   {
     "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Singular Perception",
@@ -30,8 +64,8 @@
     "Software/Programs\n(Required/Preferred)": "Unreal, C++",
     "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "",
     "test": "0",
-    "Region": "",
-    "Date Difference (Used for redesign purposes only)": ""
+    "Region": "Europe",
+    "Date Difference (Used for redesign purposes only)": "4"
   },
   {
     "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Aura Digital Studios",
@@ -47,8 +81,8 @@
     "Software/Programs\n(Required/Preferred)": "Unity, HLSL",
     "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "Apply by September 9th. This is for their XR department",
     "test": "0",
-    "Region": "",
-    "Date Difference (Used for redesign purposes only)": ""
+    "Region": "Europe",
+    "Date Difference (Used for redesign purposes only)": "4"
   },
   {
     "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Mega Cat Studios",
@@ -149,8 +183,8 @@
     "Software/Programs\n(Required/Preferred)": "Photoshop, Spine, Unity",
     "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "Must be fluent in English",
     "test": "0",
-    "Region": "",
-    "Date Difference (Used for redesign purposes only)": ""
+    "Region": "Asia",
+    "Date Difference (Used for redesign purposes only)": "8"
   },
   {
     "Studio\n(Featured listings in blue)\n(Most recent in orange)": "That's No Moon",
@@ -167,7 +201,7 @@
     "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "Technical Lighting Artist. Must be based in North America to work remotely",
     "test": "0",
     "Region": "North America",
-    "Date Difference (Used for redesign purposes only)": "43"
+    "Date Difference (Used for redesign purposes only)": "8"
   },
   {
     "Studio\n(Featured listings in blue)\n(Most recent in orange)": "That's No Moon",
@@ -1188,90 +1222,5 @@
     "test": "0",
     "Region": "North America",
     "Date Difference (Used for redesign purposes only)": "57"
-  },
-  {
-    "Studio\n(Featured listings in blue)\n(Most recent in orange)": "ArenaNet",
-    "": "",
-    "City": "Bellevue",
-    "Province/State/Region": "Washington",
-    "Country": "United States",
-    "Job Title": "Tools Engineer",
-    "Experience Level": "Senior",
-    " On-Site/\nRemote/Hybrid": "All options",
-    "Date": "July 3, 2025",
-    "Source/Contact": "https://job-boards.greenhouse.io/arenanet/jobs/6831832",
-    "Software/Programs\n(Required/Preferred)": "C#, C++, Unreal",
-    "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "They are open to remote work from the following states: AZ, CA, CO, FL, GA, ID, IL, MA, MD, NC, NY, OR, TX, UT, WA and WI or onsite/hybrid/flex at their office in Bellevue, WA",
-    "test": "0",
-    "Region": "North America",
-    "Date Difference (Used for redesign purposes only)": "61"
-  },
-  {
-    "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Radical Forge",
-    "": "",
-    "City": "Middlesbrough",
-    "Province/State/Region": "United Kingdom",
-    "Country": "England",
-    "Job Title": "Technical Artist",
-    "Experience Level": "Mid",
-    " On-Site/\nRemote/Hybrid": "Remote",
-    "Date": "July 3, 2025",
-    "Source/Contact": "https://careers.radicalforge.com/jobs/6121246-technical-artist",
-    "Software/Programs\n(Required/Preferred)": "Unity, Unreal, Maya, 3ds Max, Blender, Substance",
-    "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "They will require all applicants to live in the UK and have a pre-existing right to work there. The role will initially be a 12-month contract with the potential to extend after this.",
-    "test": "0",
-    "Region": "Europe",
-    "Date Difference (Used for redesign purposes only)": "61"
-  },
-  {
-    "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Jackbox Games",
-    "": "",
-    "City": "Chicago",
-    "Province/State/Region": "Illinois",
-    "Country": "United States",
-    "Job Title": "Technical Designer",
-    "Experience Level": "Senior",
-    " On-Site/\nRemote/Hybrid": "On-Site or Remote",
-    "Date": "July 3, 2025",
-    "Source/Contact": "https://apply.workable.com/jackbox-games/j/9CDD3A2F61/",
-    "Software/Programs\n(Required/Preferred)": "Unreal, C++",
-    "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "They offer remote work in the following states: California, Florida, Illinois, Indiana, Massachusetts, Michigan, New York, Ohio, Pennsylvania, Texas, Vermont, Washington, and Wisconsin",
-    "test": "0",
-    "Region": "North America",
-    "Date Difference (Used for redesign purposes only)": "61"
-  },
-  {
-    "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Visual Concepts",
-    "": "",
-    "City": "Austin",
-    "Province/State/Region": "Texas",
-    "Country": "United States",
-    "Job Title": "Technical Artist",
-    "Experience Level": "Senior",
-    " On-Site/\nRemote/Hybrid": "Remote",
-    "Date": "July 2, 2025",
-    "Source/Contact": "https://job-boards.greenhouse.io/visualconcepts/jobs/6619966003",
-    "Software/Programs\n(Required/Preferred)": "Python, C#, C++, Maya, MEL, Substance, Photoshop, Perforce, MotionBuilder",
-    "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "Must be US-based",
-    "test": "0",
-    "Region": "North America",
-    "Date Difference (Used for redesign purposes only)": "62"
-  },
-  {
-    "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Digital Extremes",
-    "": "",
-    "City": "London",
-    "Province/State/Region": "Ontario",
-    "Country": "Canada",
-    "Job Title": "Graphics Programmer",
-    "Experience Level": "Senior",
-    " On-Site/\nRemote/Hybrid": "All options",
-    "Date": "July 1, 2025",
-    "Source/Contact": "https://www.digitalextremes.com/careers/position/4513638007",
-    "Software/Programs\n(Required/Preferred)": "C++",
-    "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "Applicants must be legally eligible to work in Canada at the time of application",
-    "test": "0",
-    "Region": "North America",
-    "Date Difference (Used for redesign purposes only)": "63"
   }
 ]
