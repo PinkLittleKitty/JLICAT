@@ -1,5 +1,22 @@
 [
   {
+    "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Red Thread Games",
+    "": "",
+    "City": "Oslo",
+    "Province/State/Region": "",
+    "Country": "Norway",
+    "Job Title": "Systems Designer",
+    "Experience Level": "Senior",
+    " On-Site/\nRemote/Hybrid": "On-Site or Remote",
+    "Date": "October 7, 2025",
+    "Source/Contact": "https://www.redthreadgames.com/systems-designer",
+    "Software/Programs\n(Required/Preferred)": "Unreal, Unity",
+    "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "Must be able to overlap with Norwegian working hours for at least 6 hours per day",
+    "test": "0",
+    "Region": "Europe",
+    "Date Difference (Used for redesign purposes only)": "0"
+  },
+  {
     "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Volmi Games",
     "": "",
     "City": "Kyiv",
@@ -712,23 +729,6 @@
     "test": "0",
     "Region": "Europe",
     "Date Difference (Used for redesign purposes only)": "22"
-  },
-  {
-    "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Insomniac Games",
-    "": "",
-    "City": "Burbank",
-    "Province/State/Region": "California",
-    "Country": "United States",
-    "Job Title": "Mission Designer",
-    "Experience Level": "Mid",
-    " On-Site/\nRemote/Hybrid": "Remote",
-    "Date": "September 12, 2025",
-    "Source/Contact": "https://job-boards.greenhouse.io/insomniac/jobs/5600098004",
-    "Software/Programs\n(Required/Preferred)": "Unreal, Unity, Office",
-    "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "Must be US-based",
-    "test": "0",
-    "Region": "North America",
-    "Date Difference (Used for redesign purposes only)": "25"
   },
   {
     "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Sunnyside Games",
@@ -1612,23 +1612,6 @@
     "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "Production spans Q3 2025 to Q2 2026",
     "test": "0",
     "Region": "Europe",
-    "Date Difference (Used for redesign purposes only)": "56"
-  },
-  {
-    "Studio\n(Featured listings in blue)\n(Most recent in orange)": "Voracious Games",
-    "": "",
-    "City": "Seattle",
-    "Province/State/Region": "Washington",
-    "Country": "United States",
-    "Job Title": "Software Engineer",
-    "Experience Level": "Mid",
-    " On-Site/\nRemote/Hybrid": "Remote",
-    "Date": "August 12, 2025",
-    "Source/Contact": "https://www.voraciousgames.com/engineer",
-    "Software/Programs\n(Required/Preferred)": "Unreal, C++",
-    "Notes\n(Some roles may be remote or hybrid although job descriptions may not specifically state this. Please check with the studio for further information.)": "Flexible hours. They have a daily check-in meeting at 8am PT, but otherwise you're free to set your own schedule",
-    "test": "0",
-    "Region": "North America",
     "Date Difference (Used for redesign purposes only)": "56"
   },
   {
